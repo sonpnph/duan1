@@ -15,22 +15,36 @@
                             <thead>
                             <tr>
                                 <th scope="col">ID</th>
-                                <th scope="col">Tên danh mục</th>
-                                <th scope="col">Mô tả danh mục</th>
+                                <th scope="col">Tên hàng hóa</th>
+                                <th scope="col">Giá</th>
+                                <th scope="col">Mô tả</th>
+                                <th scope="col">Danh mục</th>
+                                <th scope="col">Ảnh</th>
+                                <th scope="col">Tồn kho</th>
                                 <th scope="col">Trạng thái</th>
 
                             </tr>
                             </thead>
                             <tbody>
                             <?php
-                            foreach ($dsdanhmuc as $danhmuc) {
-                                extract($danhmuc);
+                            foreach ($dshanghoa as $hanghoa) {
+                                extract($hanghoa);
+
+                                $hinhpath = "../../../../../uploads/" . $pdt_img;
+                                if (is_file($hinhpath)) {
+                                    $img = "<img src='" . $hinhpath . "' height='80'>";
+                                } else {
+                                    $img = "no photo";
+                                }
                                 echo "<tr>
-                                        <td > $ctg_id 	</td >
-                                        <td > $ctg_name </td >
-                                        <td > $ctg_des</td >
-                                        <td > $ctg_status </td >
-                                        
+                                        <td > $pdt_id 	</td >
+                                        <td > $pdt_name </td >
+                                        <td > $pdt_price</td >
+                                        <td > $pdt_des </td >
+                                        <td > $pdt_ctg</td >
+                                        <td > $img</td >
+                                        <td > $product_stock</td >
+                                        <td > $pdt_status</td >
                                         <td><button class='btn btn-primary me-md-2'>Sửa</button></td>
                                         <td><button class='btn btn-danger me-md-2'>Xóa</button></td>
                                     </tr>";

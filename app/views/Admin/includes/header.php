@@ -53,8 +53,7 @@
             Chức năng
         </div>
 
-        <!-- Nav Item - Menu chức năng 1 -->
-        <!-- Nav Item - Menu chức năng 2 -->
+        <!-- Nav Item - Menu chức năng -->
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse3"
                aria-expanded="true" aria-controls="collapse3">
@@ -70,57 +69,8 @@
             </div>
         </li>
 
-
         <!-- Divider -->
         <hr class="sidebar-divider">
-
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            Tiện ích bổ sung
-        </div>
-
-        <!-- Nav Item - Pages Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-               aria-expanded="true" aria-controls="collapsePages">
-                <i class="fas fa-fw fa-cog"></i>
-                <span>Website</span>
-            </a>
-            <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Trang đăng nhập:</h6>
-                    <a class="collapse-item" href="login.html">Đăng nhập</a>
-                    <a class="collapse-item" href="register.html">Đăng kí</a>
-                    <a class="collapse-item" href="forgot-password.html">Quên mật khẩu</a>
-                    <div class="collapse-divider"></div>
-                    <h6 class="collapse-header">Trang khác:</h6>
-                    <a class="collapse-item" href="404.html">Trang lỗi 404</a>
-                    <a class="collapse-item" href="blank.html">Trang trống</a>
-                </div>
-            </div>
-        </li>
-
-        <!-- Nav Item - Utilities Collapse Menu -->
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-               aria-expanded="true" aria-controls="collapseUtilities">
-                <i class="fas fa-fw fa-wrench"></i>
-                <span>Tiện ích khác</span>
-            </a>
-            <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                 data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Custom Utilities:</h6>
-                    <a class="collapse-item" href="utilities-color.html">Colors</a>
-                    <a class="collapse-item" href="utilities-border.html">Borders</a>
-                    <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                    <a class="collapse-item" href="utilities-other.html">Other</a>
-                </div>
-            </div>
-        </li>
-
-        <!-- Divider -->
-        <hr class="sidebar-divider d-none d-md-block">
 
         <!-- Sidebar Toggler (Sidebar) -->
         <div class="text-center d-none d-md-inline">
@@ -265,7 +215,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-s font-weight-bold text-success text-uppercase mb-1 ">
-                                                <a href="../index.php?act=dskhoahoc"> Quản lý sản phẩm</a>
+                                                <a href="index.php?act=dshanghoa"> Quản lý hàng hóa</a>
                                             </div>
                                         </div>
                                         <div class="col-auto">
@@ -285,7 +235,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-s font-weight-bold text-info text-uppercase mb-1">
-                                                Quản lý danh mục
+                                                <a href="index.php?act=dsdanhmuc"> Quản lý danh  mục</a>
                                             </div>
                                         </div>
                                         <div class="col-auto">
@@ -306,7 +256,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-s font-weight-bold text-warning text-uppercase mb-1">
-                                                Quản lý feedback
+                                                <a href="index.php?act=feedback"> Quản lý feedback</a>
                                             </div>
                                         </div>
                                         <div class="col-auto">
