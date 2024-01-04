@@ -5,3 +5,7 @@ function loadall_dsfeedback()
     $dsfeedback = pdo_query($sql);
     return $dsfeedback;
 }
+// git branch + ten nhanh 
+// git checkout + ten nhanh
+// git push -u origin + ten nhanh
+
